@@ -10,3 +10,5 @@ Screenshots:
 ![ScreenShot](https://github.com/yxyx136/LS3D/raw/master/screenshot2.png)
 
 Textures are not included for copyright reasons.
+
+Some parts of the code are inspired by this great OpenGL Tutorial: https://learnopengl.com/
