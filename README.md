@@ -9,6 +9,7 @@ Screenshots:
 ![ScreenShot](https://github.com/yxyx136/LS3D/raw/master/screenshot1.png)
 ![ScreenShot](https://github.com/yxyx136/LS3D/raw/master/screenshot2.png)
 
+The actual engine's code is located at "https://github.com/yxyx136/LS3D/tree/master/code/LS3D"
 Textures are not included for copyright reasons.
 
 Some parts of the code are inspired by this great OpenGL Tutorial: https://learnopengl.com/
