@@ -24,7 +24,7 @@ libglew-dev
 ![ScreenShot](screenshot1.png)
 ![ScreenShot](screenshot2.png)
 
-The actual engine's code is located at "https://github.com/sugeedarou/OpenGL-3D-Engine/tree/master/code/OpenGL-3D-Engine"
+The actual engine's code is located at "https://github.com/sugeedarou/OpenGL-3D-Engine/tree/master/code/LS3D"
 
 Refer to https://github.com/sugeedarou/OpenGL-3D-Engine/blob/master/code/main.cpp for an example usage.
 
