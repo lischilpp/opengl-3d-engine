@@ -1,8 +1,4 @@
-# LS3D
-
-Not to confuse with the engine described here: https://www.moddb.com/engines/ls3d; looks like someone else named his engine like mine.
-
-**This is just a basic polygon engine without lighting and physics.**
+# OpenGL-3D-Engine
 
 ## Features:
 
