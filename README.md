@@ -4,7 +4,7 @@
 
 -Mesh and scene management
 
--Skyboxes
+-Skybox
 
 -First person controller
 
