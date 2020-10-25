@@ -1,11 +1,30 @@
-Dependencies:
+# LS3D
+
+Not to confuse with the engine described here: https://www.moddb.com/engines/ls3d; looks like someone else named his engine like mine.
+
+**This is just a basic polygon engine without lighting and physics.**
+
+## Features:
+
+-Mesh and scene management
+
+-Skyboxes
+
+-First person controller
+
+-Animations
+
+-Keyboard event callbacks
+
+
+## Dependencies:
 
 libsoil-dev
 libglm-dev
 libglfw3-dev
 libglew-dev
 
-Screenshots:
+## Screenshots:
 ![ScreenShot](https://github.com/yxyx136/LS3D/raw/master/screenshot1.png)
 ![ScreenShot](https://github.com/yxyx136/LS3D/raw/master/screenshot2.png)
 
