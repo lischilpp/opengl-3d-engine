@@ -27,7 +27,7 @@ libsoil-dev, libglm-dev, libglfw3-dev, libglew-dev
 ## 📦 Getting started
 The engines code can be found [here](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/LS3D)
 
-This is an [example main.cpp](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/engine) for using the engine.
+This is an [example main.cpp](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/main.cpp) for using the engine.
 
 [Here](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/engine) you can find an example voxel engine using the 3D Engine.
 
