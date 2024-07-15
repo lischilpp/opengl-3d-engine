@@ -9,19 +9,19 @@
 - [<code>📝 License</code>](#-license)
 - [<code>❤️ Credits</code>](#-credits)
 
-## 🖼️ Screenshots:
+## 🖼️ Screenshots
 <p>
   <img src="screenshot1.png" width="500px" alt="screenshot1" />
 </p>
   
-## 📋 Features:
+## 📋 Features
 - GameObject and scene management
 - Transformations
 - Skybox
 - First person controller
 - Keyboard event callbacks
 
-## 🗄 Dependencies:
+## 🗄 Dependencies
 libsoil-dev, libglm-dev, libglfw3-dev, libglew-dev
 
 ## 📦 Getting started
