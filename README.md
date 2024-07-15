@@ -12,7 +12,6 @@
 ## 🖼️ Screenshots:
 <p>
   <img src="screenshot1.png" width="500px" alt="screenshot1" />
-  <img src="screenshot2.png" width="500px" alt="screenshot2" />
 </p>
   
 ## 📋 Features:
