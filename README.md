@@ -1,35 +1,39 @@
 # OpenGL-3D-Engine
+### A 3D engine written in C++ using OpenGL
 
-## Features:
+## 🗺️ Navigation 
+- [<code>🖼️ Screenshots</code>](#-screenshots)
+- [<code>📋 Features</code>](#-features)
+- [<code>🗄 Dependencies</code>](#-dependencies)
+- [<code>📦 Getting started</code>](#-getting-started)
+- [<code>📝 License</code>](#-license)
+- [<code>❤️ Credits</code>](#-credits)
 
--Mesh and scene management
+## 🖼️ Screenshots:
+<p>
+  <img src="screenshot1.png" width="500px" alt="screenshot1" />
+  <img src="screenshot2.png" width="500px" alt="screenshot2" />
+</p>
+  
+## 📋 Features:
+- GameObject and scene management
+- Transformations
+- Skybox
+- First person controller
+- Keyboard event callbacks
 
--Skybox
+## 🗄 Dependencies:
+libsoil-dev, libglm-dev, libglfw3-dev, libglew-dev
 
--First person controller
+## 📦 Getting started
+The engines code can be found [here](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/LS3D)
 
--Animations
+This is an [example main.cpp](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/engine) for using the engine.
 
--Keyboard event callbacks
+[Here](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/engine) you can find an example voxel engine using the 3D Engine.
 
+## 📝 License
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details
 
-## Dependencies:
-
-libsoil-dev
-libglm-dev
-libglfw3-dev
-libglew-dev
-
-## Screenshots:
-![ScreenShot](screenshot1.png)
-![ScreenShot](screenshot2.png)
-
-The actual engine's code is located at "https://github.com/sugeedarou/OpenGL-3D-Engine/tree/master/code/LS3D"
-
-Refer to https://github.com/sugeedarou/OpenGL-3D-Engine/blob/master/code/main.cpp for an example usage.
-
-Refer to https://github.com/sugeedarou/OpenGL-3D-Engine/tree/master/code/engine for an example voxel engine using the 3D Engine.
-
-Textures are not included for copyright reasons.
-
+## ❤️ Credits
 Some parts of the code are inspired by this great OpenGL Tutorial: https://learnopengl.com/
