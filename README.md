@@ -6,6 +6,7 @@
 - [<code>📋 Features</code>](#-features)
 - [<code>🗄 Dependencies</code>](#-dependencies)
 - [<code>📦 Getting started</code>](#-getting-started)
+- [<code>📐 Design goals</code>](#-design-goals)
 - [<code>📝 License</code>](#-license)
 - [<code>❤️ Credits</code>](#-credits)
 
@@ -30,6 +31,11 @@ The engines code can be found [here](https://github.com/lischilpp/opengl-3d-engi
 This is an [example main.cpp](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/main.cpp) for using the engine.
 
 [Here](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/engine) you can find an example voxel engine using the 3D Engine.
+
+## 📐 Design goals
+This engine aims to simplify and enhance the readability of 3D graphics code,
+while preserving the flexibility to choose between using the provided abstractions and writing custom code.
+To achieve this, it is designed with the maximum degree of modularity in mind.
 
 ## 📝 License
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details
