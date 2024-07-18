@@ -39,10 +39,11 @@ To achieve this, it is designed with the maximum degree of modularity in mind.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## ❤️ Credits
-Some parts of the code are inspired by this great OpenGL Tutorial: https://learnopengl.com/
+All resources in folder res/ are public domain images.
 
-The textures are public domain images from https://texture.ninja.
 
-The skybox is also public domain and can be found here: https://opengameart.org/content/space-skyboxes-0.
+The textures are from https://texture.ninja.
+
+The skybox can be found here: https://opengameart.org/content/space-skyboxes-0.
 
 Loading of texture images is done using the public domain library stb.
