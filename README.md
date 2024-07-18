@@ -44,3 +44,5 @@ Some parts of the code are inspired by this great OpenGL Tutorial: https://learn
 The textures are public domain images from https://texture.ninja.
 
 The skybox is also public domain and can be found here: https://opengameart.org/content/space-skyboxes-0.
+
+Loading of texture images is done using the public domain library stb.

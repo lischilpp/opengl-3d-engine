@@ -1,6 +1,9 @@
-#include "Texture.h"
 #include <iostream>
 #include <fstream>
+#define STB_IMAGE_IMPLEMENTATION
+#include "../../../../lib/stb_image.h"
+
+#include "Texture.h"
 
 namespace Visual
 {
@@ -10,27 +13,13 @@ void Texture::Load(const char* src, int width, int height)
     this->width = width;
     this->height = height;
 
-    // Allocate memory for the image
-    unsigned char* image = new unsigned char[width * height * 4]; // RGBA
-
-    // Open the file
-    std::ifstream file(src, std::ios::binary);
-    if (!file)
+    // Load image using stb_image
+    unsigned char* image = stbi_load(src, &width, &height, nullptr, 4); // RGBA
+    if (!image)
     {
-        std::cerr << "Failed to open image file: " << src << std::endl;
-        delete[] image;
+        std::cerr << "Failed to load image file: " << src << std::endl;
         return;
     }
-
-    // Read the image data
-    file.read(reinterpret_cast<char*>(image), width * height * 4);
-    if (!file)
-    {
-        std::cerr << "Failed to read image file: " << src << std::endl;
-        delete[] image;
-        return;
-    }
-    file.close();
 
     // Generate and bind the texture
     glGenTextures(1, &id);
@@ -38,10 +27,10 @@ void Texture::Load(const char* src, int width, int height)
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
     glGenerateMipmap(GL_TEXTURE_2D);
 
-    // Free the image memory
-    delete[] image;
-    glBindTexture(GL_TEXTURE_2D, 0);
+    // Free stb_image allocated memory
+    stbi_image_free(image);
 
+    // Set loaded flag to true
     this->loaded = true;
 }
 
@@ -53,4 +42,5 @@ void Texture::Use()
         glBindTexture(GL_TEXTURE_2D, id);
     }
 }
-}
+
+} // namespace Visual

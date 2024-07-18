@@ -27,6 +27,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${OPENGL_INCLUDE_DIR}
     ${GLEW_INCLUDE_DIRS}
     ${GLFW_INCLUDE_DIRS}
+    ${CMAKE_SOURCE_DIR}/lib
     ${CMAKE_SOURCE_DIR}/src
     ${CMAKE_SOURCE_DIR}/LS3D
 )
