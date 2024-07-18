@@ -23,7 +23,7 @@
 - Keyboard event callbacks
 
 ## 🗄 Dependencies
-libsoil-dev, libglm-dev, libglfw3-dev, libglew-dev
+glfw, glew, glm, stb (stb is included in lib files)
 
 ## 📦 Getting started
 The engines code can be found [here](https://github.com/lischilpp/opengl-3d-engine/tree/master/src/LS3D)
@@ -36,7 +36,7 @@ while preserving the flexibility to choose between using the provided abstractio
 To achieve this, it is designed with the maximum degree of modularity in mind.
 
 ## 📝 License
-This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## ❤️ Credits
 Some parts of the code are inspired by this great OpenGL Tutorial: https://learnopengl.com/
