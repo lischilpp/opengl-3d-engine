@@ -23,7 +23,7 @@
 - Keyboard event callbacks
 
 ## 🗄 Dependencies
-libsoil-dev, libglm-dev, libglfw3-dev, libglew-dev
+glfw, glew, glm, stb (stb is included in lib files)
 
 ## 📦 Getting started
 The engines code can be found [here](https://github.com/lischilpp/opengl-3d-engine/tree/master/src/LS3D)
