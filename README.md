@@ -11,9 +11,9 @@
 - [<code>❤️ Credits</code>](#-credits)
 
 ## 🖼️ Screenshots
-<p>
+<!--<p>
   <img src="screenshot1.png" width="500px" alt="screenshot1" />
-</p>
+</p>-->
   
 ## 📋 Features
 - GameObject and scene management
@@ -42,3 +42,7 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) 
 
 ## ❤️ Credits
 Some parts of the code are inspired by this great OpenGL Tutorial: https://learnopengl.com/
+
+The textures are public domain images from https://texture.ninja.
+
+The skybox is also public domain and can be found here: https://opengameart.org/content/space-skyboxes-0.
