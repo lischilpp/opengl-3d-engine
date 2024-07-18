@@ -1,4 +1,4 @@
-#include "Vector2.h"
+#include "LS3D/components/Types/Vector2.h"
 
 float Vector2::Distance(Vector2 a, Vector2 b)
 {

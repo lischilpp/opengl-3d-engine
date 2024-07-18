@@ -1,4 +1,4 @@
-#include "Input.h"
+#include "LS3D/components/System/Input.h"
 #include <iostream>
 
 namespace System

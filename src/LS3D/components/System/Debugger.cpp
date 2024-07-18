@@ -1,4 +1,4 @@
-#include "Debugger.h"
+#include "LS3D/components/System/Debugger.h"
 
 namespace System
 {

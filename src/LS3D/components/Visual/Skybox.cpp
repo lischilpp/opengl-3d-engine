@@ -1,4 +1,4 @@
-#include "Skybox.h"
+#include "LS3D/components/Visual/Skybox.h"
 
 namespace Visual
 {

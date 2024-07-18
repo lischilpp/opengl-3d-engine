@@ -1,4 +1,4 @@
-#include "GeometryCreator.h"
+#include "LS3D/components/Visual/GeometryCreator.h"
 
 namespace Visual
 {

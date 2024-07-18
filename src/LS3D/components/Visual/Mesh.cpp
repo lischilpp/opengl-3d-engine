@@ -1,5 +1,5 @@
-#include "Mesh.h"
 #include <iostream>
+#include "LS3D/components/Visual/Mesh.h"
 
 namespace Visual {
 

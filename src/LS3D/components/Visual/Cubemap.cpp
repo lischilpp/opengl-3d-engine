@@ -1,4 +1,4 @@
-#include "Cubemap.h"
+#include "LS3D/components/Visual/Cubemap.h"
 
 namespace Visual
 {

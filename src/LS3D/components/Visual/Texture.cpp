@@ -1,9 +1,8 @@
 #include <iostream>
-#include <fstream>
 #define STB_IMAGE_IMPLEMENTATION
 #include "../../../../lib/stb_image.h"
 
-#include "Texture.h"
+#include "LS3D/components/Visual/Texture.h"
 
 namespace Visual
 {

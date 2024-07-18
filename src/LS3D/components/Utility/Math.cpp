@@ -1,4 +1,4 @@
-#include "Math.h"
+#include "LS3D/components/Utility/Math.h"
 
 float Math::Clamp(float n, float s, float e)
 {

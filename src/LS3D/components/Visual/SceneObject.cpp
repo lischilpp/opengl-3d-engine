@@ -1,5 +1,4 @@
-#include "SceneObject.h"
-#include "../System/Debugger.h"
+#include "LS3D/components/Visual/SceneObject.h"
 
 namespace Visual {
 

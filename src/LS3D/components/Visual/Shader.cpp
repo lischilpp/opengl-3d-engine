@@ -1,4 +1,4 @@
-#include "Shader.h"
+#include "LS3D/components/Visual/Shader.h"
 
 namespace Visual
 {

@@ -1,4 +1,4 @@
-#include "Scene.h"
+#include "LS3D/components/Visual/Scene.h"
 
 namespace Visual {
 

@@ -1,4 +1,4 @@
-#include "Camera.h"
+#include "LS3D/components/Visual/Camera.h"
 
 namespace Visual
 {

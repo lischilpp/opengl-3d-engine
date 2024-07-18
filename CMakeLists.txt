@@ -4,6 +4,9 @@ project(OpenGL-3D-Engine)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Include 'include' directory for headers
+include_directories(include)
+
 # Find OpenGL
 find_package(OpenGL REQUIRED)
 

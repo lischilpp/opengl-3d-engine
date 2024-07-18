@@ -1,4 +1,4 @@
-#include "RGB.h"
+#include "LS3D/components/Types/RGB.h"
 
 RGB::RGB() {}
 

@@ -1,5 +1,7 @@
-#include "LSE.h"
 #include <iostream>
+
+#include "LS3D/LSE.h"
+#include "LS3D/components/EngineComponent.h"
 
 LSE::LSE(System::Time* time)
 {
