@@ -26,11 +26,9 @@
 libsoil-dev, libglm-dev, libglfw3-dev, libglew-dev
 
 ## 📦 Getting started
-The engines code can be found [here](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/LS3D)
+The engines code can be found [here](https://github.com/lischilpp/opengl-3d-engine/tree/master/src/LS3D)
 
-This is an [example main.cpp](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/main.cpp) for using the engine.
-
-[Here](https://github.com/lischilpp/opengl-3d-engine/tree/master/code/engine) you can find an example voxel engine using the 3D Engine.
+This is an [example main.cpp](https://github.com/lischilpp/opengl-3d-engine/tree/master/src/main.cpp) for using the engine.
 
 ## 📐 Design goals
 This engine aims to simplify and enhance the readability of 3D graphics code,
